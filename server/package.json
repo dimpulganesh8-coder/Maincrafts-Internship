@@ -1,0 +1,24 @@
+{
+  "name": "mern-products-api",
+  "version": "1.0.0",
+  "description": "Express + MongoDB REST API for Products",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": ["express", "mongodb", "mongoose", "rest-api", "mern"],
+  "author": "Lokesh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

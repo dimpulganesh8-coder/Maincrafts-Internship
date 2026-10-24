@@ -1,0 +1,23 @@
+{
+  "name": "maincrafts-mern-task1",
+  "version": "1.0.0",
+  "description": "Maincrafts Technology MERN Stack Internship - Task 1: Basic React App + API",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "maincrafts"
+  ],
+  "author": "Lokesh",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.5"
+  }
+}
