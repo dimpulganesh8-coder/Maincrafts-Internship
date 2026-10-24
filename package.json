@@ -1,0 +1,21 @@
+{
+  "name": "maincrafts-task-1",
+  "version": "1.0.0",
+  "description": "Maincrafts Technology - MERN Stack Internship Task 1: Basic React App + API",
+  "scripts": {
+    "start:backend": "npm start --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "seed:backend": "npm run seed --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "",
+  "license": "ISC"
+}
