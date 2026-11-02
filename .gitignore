@@ -1,17 +1,26 @@
 # Dependencies
 node_modules/
+**/node_modules/
 backend/node_modules/
 frontend/node_modules/
+task-2/backend/node_modules/
+task-2/frontend/node_modules/
 
 # Environment Variables
 .env
+**/.env
 backend/.env
 frontend/.env
+task-2/backend/.env
+task-2/frontend/.env
 *.env.local
 
 # Build outputs
+dist/
+**/dist/
 frontend/dist/
 frontend/dist-ssr/
+task-2/frontend/dist/
 
 # Logs
 logs/

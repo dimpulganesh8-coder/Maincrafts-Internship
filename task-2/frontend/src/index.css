@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap');
+
+:root {
+  /* Warm Daylight Editorial Palette (Distinct from Task 1's dark navy theme) */
+  --bg-canvas: #faf7f2;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f3efe6;
+  --bg-muted: #ebe5d8;
+
+  --text-primary: #1c1917;
+  --text-secondary: #57534e;
+  --text-tertiary: #78716c;
+
+  --brand-teal: #0d9488;
+  --brand-teal-dark: #0f766e;
+  --brand-teal-soft: #ccfbf1;
+
+  --accent-coral: #ea580c;
+  --accent-coral-soft: #ffedd5;
+
+  --accent-amber: #d97706;
+  --accent-amber-soft: #fef3c7;
+
+  --accent-crimson: #e11d48;
+  --accent-crimson-soft: #ffe4e6;
+
+  --border-light: #e7e2d8;
+  --border-strong: #d6cfc2;
+
+  --radius-xs: 8px;
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+
+  --shadow-card: 0 4px 20px -2px rgba(28, 25, 23, 0.06),
+    0 2px 6px -1px rgba(28, 25, 23, 0.04);
+  --shadow-hover: 0 12px 28px -4px rgba(28, 25, 23, 0.1),
+    0 4px 10px -2px rgba(28, 25, 23, 0.05);
+
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-canvas);
+  background-image: radial-gradient(
+      at 10% 10%,
+      rgba(13, 148, 136, 0.07) 0px,
+      transparent 50%
+    ),
+    radial-gradient(
+      at 90% 15%,
+      rgba(234, 88, 12, 0.06) 0px,
+      transparent 50%
+    );
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
